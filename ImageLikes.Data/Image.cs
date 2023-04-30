@@ -10,6 +10,9 @@ namespace ImageLikes.Data
     {
         public int Id { get; set; }
         public string Title { get; set; }
+        public int Likes { get; set; }
+        public string FileName { get; set; }
+        public DateTime DateUploaded { get; set; }
         
     }
 }
